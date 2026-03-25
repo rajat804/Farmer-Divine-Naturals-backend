@@ -24,7 +24,8 @@ connectDB();
    CORS CONFIG
 ============================== */
 const allowedOrigins = [
-  "http://localhost:5173"
+  "http://localhost:5173",
+  "https://farmer-divine-naturals.vercel.app"
 ];
 
 const corsOptions = {
